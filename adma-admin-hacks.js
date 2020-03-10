@@ -325,7 +325,7 @@ function appendStyles() {
 		#edit-field-body-paragraphs .sticky-header { position: static !important; }
 
 		/* Block selection box */
-		#edit-field-sidebar-paragraphs-und-0-field-block-und, #edit-field-body-paragraphs-und-0-field-block-und {
+		select[multiple=multiple][id^=edit-field-] {
 			height: 400px;
 		}
 
